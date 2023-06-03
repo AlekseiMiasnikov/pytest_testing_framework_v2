@@ -1,0 +1,43 @@
+{
+    "ENV_EXAMPLE": {
+        "ENV": "example",
+        "APP_URL": "https://yandex.com",
+        "GOOGLE_URL": "https://google.com",
+        "API_URL": "https://google.com",
+        "BROWSER_NAME": "chrome",
+        "BROWSER_WINDOW_WIDTH": 1920,
+        "BROWSER_WINDOW_HEIGHT": 1440,
+        "SELENOID": {
+            "ENABLE_VNC": true,
+            "ENABLE_VIDEO": false,
+            "BROWSER_VERSION": "103.0",
+            "HUB": "http://xxx.xxx.xx.xx:xxxx/wd/hub"
+        },
+        "TIMEOUT": 10,
+        "POSTGRESQL": {
+            "HOST": "999.999.99.99",
+            "PORT": "9999",
+            "DB_NAME": "postgresql",
+            "DB_TYPE": "postgresql"
+        },
+        "MYSQL": {
+            "HOST": "999.9.9.9",
+            "DB_NAME": "mssql",
+            "DB_TYPE": "mysql"
+        },
+        "ORACLE": {
+            "HOST": "999.9.9.9",
+            "PORT": "5432",
+            "DB_NAME": "oracle",
+            "DB_TYPE": "oracle"
+        },
+        "MSSQL": {
+            "DB_NAME": "mssql",
+            "DB_TYPE": "mysql"
+        },
+        "SQLITE": {
+            "PATH": "C:\\path\\to\\foo.db",
+            "DB_TYPE": "sqlite"
+        }
+    }
+}

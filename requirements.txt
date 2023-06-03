@@ -1,0 +1,13 @@
+flake8==6.0.0
+allure-pytest==2.13.2
+allure-python-commons==2.13.2
+psycopg2-binary==2.9.6
+pytest==7.3.1
+pytest-env==0.8.1
+pytest-xdist==3.3.1
+requests==2.31.0
+selenium==4.9.1
+SQLAlchemy==2.0.15
+webdriver-manager==3.8.6
+urllib3==2.0.2
+selene==2.0.0rc2
